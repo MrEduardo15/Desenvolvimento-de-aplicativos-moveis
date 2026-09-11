@@ -96,6 +96,16 @@ function Calculadora() {
     transition: "background-color 0.1s",
   };
 
+  const estiloBotaoOperacao = {
+    ...estiloBotaoBase,
+    backgroundColor: "#f9f9f9", // Operadores levemente diferentes
+  };
+
+  const estiloBotaoAcao = {
+    ...estiloBotaoBase,
+    backgroundColor: "#f9f9f9",
+  };
+
   return (
     <div style={estiloCalculadora}>
       <div style={estiloDisplay}>
